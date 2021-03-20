@@ -6,7 +6,11 @@
 
     <groupId>tk.shanebee</groupId>
     <artifactId>SurvivalPlus</artifactId>
+<<<<<<< HEAD
     <version>3.15.1</version>
+=======
+    <version>3.15.0</version>
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>

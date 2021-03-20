@@ -234,10 +234,13 @@ public class RecipeManager {
 
         clayBrick.addIngredient(Material.BRICKS);
 
+<<<<<<< HEAD
         // BRICK RECIPE
 
         CampfireRecipe brick = new CampfireRecipe(new NamespacedKey(plugin, "brick"),
                 new ItemStack(Material.BRICK), Material.CLAY_BALL, 0, 2400);
+=======
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 
         //  QUARTZ BLOCK RECIPE
         ShapelessRecipe quartz = new ShapelessRecipe(new NamespacedKey(plugin, "quartz"), new ItemStack(Material.QUARTZ, 4));
@@ -265,9 +268,16 @@ public class RecipeManager {
         //  FURNACE RECIPE
         ShapedRecipe furnace = new ShapedRecipe(new NamespacedKey(plugin, "furnace"), new ItemStack(Material.FURNACE, 1));
 
+<<<<<<< HEAD
         furnace.shape("@@@", "@ @", "@@@");
 
         furnace.setIngredient('@', Material.BRICK);
+=======
+        furnace.shape("@@@", "@*@", "@@@");
+
+        furnace.setIngredient('@', Material.BRICK);
+        furnace.setIngredient('*', new ExactChoice(ItemManager.get(Item.FIRESTRIKER)));
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 
 
         //  CHEST RECIPE
@@ -750,6 +760,7 @@ public class RecipeManager {
 
         //Add recipes
         if (config.SURVIVAL_ENABLED) {
+<<<<<<< HEAD
             if(config.RECIPES_HATCHET){
                 plugin.getServer().addRecipe(hatchet1);
                 plugin.getServer().addRecipe(hatchet2);
@@ -769,6 +780,17 @@ public class RecipeManager {
             plugin.getServer().addRecipe(shiv);
             plugin.getServer().addRecipe(chest);
             plugin.getServer().addRecipe(flint);
+=======
+            plugin.getServer().addRecipe(hatchet1);
+            plugin.getServer().addRecipe(hatchet2);
+            plugin.getServer().addRecipe(mattock);
+            plugin.getServer().addRecipe(shiv);
+            plugin.getServer().addRecipe(hammer);
+            plugin.getServer().addRecipe(firestriker);
+            plugin.getServer().addRecipe(chest);
+            plugin.getServer().addRecipe(flint);
+            plugin.getServer().addRecipe(unlit_campfire);
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
             if (config.BREAK_ONLY_WITH_SICKLE) {
                 if (config.SURVIVAL_SICKLE_FLINT)
                     plugin.getServer().addRecipe(flint_sickle);
@@ -783,7 +805,10 @@ public class RecipeManager {
                 plugin.getServer().addRecipe(workbench);
             }
             if (config.RECIPES_FURNACE) {
+<<<<<<< HEAD
                 plugin.getServer().addRecipe(brick);
+=======
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
                 plugin.getServer().addRecipe(furnace);
             }
         }
@@ -1077,9 +1102,13 @@ public class RecipeManager {
 
     private void removeRecipes() {
         if (config.SURVIVAL_ENABLED) {
+<<<<<<< HEAD
             if(config.RECIPES_CAMPFIRE){
                 removeRecipeByKey("campfire");
             }
+=======
+            removeRecipeByKey("campfire");
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
             removeRecipeByKey("chest");
             if (config.SURVIVAL_TORCH) {
                 removeRecipeByKey("torch");
@@ -1123,7 +1152,11 @@ public class RecipeManager {
         }
         if (config.MECHANICS_SNOWBALL_REVAMP) {
             removeRecipeByKey("snow");
+<<<<<<< HEAD
             //removeRecipeByKey("snow_block");
+=======
+            removeRecipeByKey("snow_block");
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
         }
         if (config.MECHANICS_FARMING_PRODUCTS_COOKIE) {
             removeRecipeByKey("cookie");

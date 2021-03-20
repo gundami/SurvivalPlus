@@ -214,11 +214,14 @@ public class Config {
 	public boolean RECIPES_FISHING_ROD;
 	public boolean RECIPES_FURNACE;
 	public boolean RECIPES_WORKBENCH;
+<<<<<<< HEAD
 	public boolean RECIPES_HATCHET;
 	public boolean RECIPES_MATTOCK;
 	public boolean RECIPES_HAMMER;
 	public boolean RECIPES_FLINT_SICKLE;
 	public boolean RECIPES_CAMPFIRE;
+=======
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 
 	// LEGENDARY TOOLS
 	public boolean LEGENDARY_VALKYRIE;
@@ -490,11 +493,14 @@ public class Config {
 		this.RECIPES_FISHING_ROD = settings.getBoolean("Recipes.FishingRod");
 		this.RECIPES_FURNACE = settings.getBoolean("Recipes.Furnace");
 		this.RECIPES_WORKBENCH = settings.getBoolean("Recipes.Workbench");
+<<<<<<< HEAD
 		this.RECIPES_MATTOCK = settings.getBoolean("Recipes.Mattock");
 		this.RECIPES_HATCHET = settings.getBoolean("Recipes.Hatchet");
 		this.RECIPES_HAMMER = settings.getBoolean("Recipes.Hammer");
 		this.RECIPES_FLINT_SICKLE = settings.getBoolean("Recipes.FlintSickle");
 		this.RECIPES_CAMPFIRE = settings.getBoolean("Recipes.Campfire");
+=======
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 
 		// LEGENDARY ITEMS
 		this.LEGENDARY_VALKYRIE = settings.getBoolean("LegendaryItems.ValkyrieAxe");

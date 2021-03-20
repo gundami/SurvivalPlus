@@ -61,16 +61,28 @@ public class Consume implements Listener {
 						if (ItemManager.compare(item, Item.DIRTY_WATER)) {
 							change = config.MECHANICS_THIRST_REP_DIRTY_WATER;
 							Random rand = new Random();
+<<<<<<< HEAD
 							if (rand.nextInt(10) + 1 <= 3) {
 								player.addPotionEffect(new PotionEffect(PotionEffectType.POISON, 70, 0));
 								player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 100, 0));
+=======
+							if (rand.nextInt(10) + 1 <= 5) {
+								player.addPotionEffect(new PotionEffect(PotionEffectType.POISON, 100, 0));
+								player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 200, 0));
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 							}
 						} else if (ItemManager.compare(item, Item.CLEAN_WATER)) {
 							change = config.MECHANICS_THIRST_REP_CLEAN_WATER;
 							Random rand = new Random();
+<<<<<<< HEAD
 							if (rand.nextInt(10) + 1 <= 1) {
 								player.addPotionEffect(new PotionEffect(PotionEffectType.POISON, 30, 0));
 								player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 50, 0));
+=======
+							if (rand.nextInt(10) + 1 <= 2) {
+								player.addPotionEffect(new PotionEffect(PotionEffectType.POISON, 100, 0));
+								player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 200, 0));
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 							}
 						} else if (ItemManager.compare(item, Item.PURIFIED_WATER)) {
 							change = config.MECHANICS_THIRST_REP_PURE_WATER;

@@ -12,7 +12,11 @@ MultiWorld:
   # Enable the SurvivalPlus resource pack for players
   EnableResourcePack: true
   # The link to the pack, you can put a custom link here if need be
+<<<<<<< HEAD
   ResourcePackURL: https://mc-client.s3.jp-tok.cloud-object-storage.appdomain.cloud/EC.zip
+=======
+  ResourcePackURL: https://www.dropbox.com/s/fq6or9vvcup7wvd/SP-1.14v6.zip?dl=1
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
   # Notify players when they log in if they deny the resource pack
   NotifyMessage: true
 
@@ -36,7 +40,11 @@ Survival:
   Enabled: true
 
   # With this enabled, players will only be able to craft items which they have unlocked recipes for
+<<<<<<< HEAD
   LimitedCrafting: true
+=======
+  LimitedCrafting: false
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 
   # If true, all custom recipes will be unlocked when a player joins
   # If false, recipes will be unlocked as a player advances thru the game
@@ -44,6 +52,7 @@ Survival:
 
   # When enabled, all vanilla wooden tool recipes will be removed
   # This makes gameplay a little more difficult
+<<<<<<< HEAD
   Remove-Wooden-Tools: false
 
   # With these enabled, players will only be able to break most blocks with the correct tools
@@ -52,6 +61,16 @@ Survival:
     Pickaxe: false
     Shovel: false
     Shears: false
+=======
+  Remove-Wooden-Tools: true
+
+  # With these enabled, players will only be able to break most blocks with the correct tools
+  BreakOnlyWith:
+    Axe: true
+    Pickaxe: true
+    Shovel: true
+    Shears: true
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
     Sickle: true
 
   # Enable each sickle individually
@@ -65,7 +84,11 @@ Survival:
 
   # With this enabled, players will need a hammer in their off hand to place most buildable blocks
   PlaceOnlyWith:
+<<<<<<< HEAD
     Hammer: false
+=======
+    Hammer: true
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 
   # The rates at which items will drop (Value between 0.01 -> 1.0)
   DropRate:
@@ -193,7 +216,11 @@ Mechanics:
     PurifyWater: true
     MeltSnow: true
     # The rate at which a player's thirst level will drop (value from 0.01 -> 1.0)
+<<<<<<< HEAD
     DrainRate: 0.7
+=======
+    DrainRate: 1.0
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
     # If player is in a HOT biome, drain 1 extra thirst point every X seconds
     # This helps speed up thirst draining when a player is in a hot biome like the desert or savannah
     # (ex: at a rate of 30, thirst drops 2 points a minute, which means the player would lose all thirst in 20 minutes)
@@ -205,7 +232,11 @@ Mechanics:
     # If set to 0, this will be disabled
     NetherDrain: 30
     # The amount of damage a player takes when their thirst level is empty
+<<<<<<< HEAD
     DamageRate: 0.2
+=======
+    DamageRate: 1.0
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
     # The level of thirst that will be replenished when a player consumes this item
     Replenish-Level:
       beetroot-soup: 6
@@ -331,7 +362,11 @@ Mechanics:
   # WEATHER MECHANICS
   # These mechanics change how weather affects the player
   Weather:
+<<<<<<< HEAD
     Enabled: true
+=======
+    Enabled: false
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
     # Speed modifiers adjust player's speed based on weather
     speed:
       # This is the base speed (vanilla speed = 0.10) when a player is in normal conditions
@@ -414,12 +449,16 @@ Recipes:
   SaplingToSticks: true
   FishingRod: true
   Furnace: true
+<<<<<<< HEAD
   Workbench: false
   Mattock: false
   Hatchet: false
   Hammer: false
   FlintSickle: false
   Campfire: false
+=======
+  Workbench: true
+>>>>>>> e762e1ea4583cd6807e71f25fb7245b65a71c62c
 
 # Enables legendary items
 LegendaryItems:
